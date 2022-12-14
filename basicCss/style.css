@@ -1,0 +1,33 @@
+* {
+  background-color: rgb(117, 251, 110);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+#heading {
+  background-color: red;
+  text-align: center;
+}
+#list_heading {
+  background-color: midnightblue;
+}
+
+#apple {
+  background-color: red;
+}
+#orange {
+  background-color: orange;
+}
+#banana {
+  background-color: yellow;
+}
+#kiwi {
+  background-color: khaki;
+}
+
+.white {
+  background-color: green;
+}
+h1.white {
+  background-color: white;
+  color: rgb(3, 12, 103);
+}
