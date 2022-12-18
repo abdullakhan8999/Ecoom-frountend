@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Animation</title>
+   <style>
+      body {
+         background-color: black;
+         color: white;
+      }
+
+      .main {
+         width: 500px;
+         height: 500px;
+         background-color: rgb(73, 208, 36);
+      }
+
+      .square {
+         width: 50%;
+         height: 50%;
+         background-color: rgb(104, 153, 49);
+         transition:transform 1s cubic-bezier(0.58,-0.41, 0.42, 1.5);
+      }
+
+      .main:hover .square {
+         /* transform: translateX(100%); */
+         background-color: rgb(55, 87, 8);
+         transform: translateY(100%);
+
+      }
+
+      @
+   </style>
+</head>
+
+<body>
+   <h1>Animation</h1>
+   <div class="main">
+      <div class="square"></div>
+   </div>
+</body>
+
+</html>

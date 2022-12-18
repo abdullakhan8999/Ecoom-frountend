@@ -1,33 +1,32 @@
 * {
-  background-color: rgb(117, 251, 110);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-}
-#heading {
-  background-color: red;
-  text-align: center;
-}
-#list_heading {
-  background-color: midnightblue;
+  background-color: black;
+  color: white;
 }
 
-#apple {
-  background-color: red;
+.main_heading {
+  color: white;
 }
-#orange {
+
+/* Element selector */
+p {
+  text-align: center;
+  font-size: 50px;
+}
+
+/* class selector */
+.regalement {
+  font-size: 20px;
+  color: red;
+}
+
+/* Id selector */
+#first_parag {
   background-color: orange;
 }
-#banana {
-  background-color: yellow;
-}
-#kiwi {
-  background-color: khaki;
-}
 
-.white {
+/* Ground selector */
+h2,
+span {
+  border: 2px solid blue;
   background-color: green;
-}
-h1.white {
-  background-color: white;
-  color: rgb(3, 12, 103);
 }

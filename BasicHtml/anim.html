@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      body {
+         background-color: black;
+         color: white;
+      }
+
+      .parent {
+         background-color: rgb(0, 0, 0);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 100vh;
+         height: 100vh;
+      }
+
+      .child {
+         border-radius: 10px;
+         background-color: rgb(171, 167, 167);
+         width: 100px;
+         height: 100px;
+         box-shadow: 5px 5px 15px rgb(255, 255, 255);
+         /* animation: expand 3s ease-in-out infinite alternate */
+      }
+
+      @keyframes expand {
+         0% {
+            width: 70px;
+            height: 70px;
+            background-color: rgb(171, 167, 167);
+         }
+
+         25% {
+            width: 70px;
+            height: 70px;
+            background-color: rgb(81, 81, 81);
+         }
+         50% {
+            width: 50px;
+            height: 250px;
+            background-color: rgb(81, 81, 81);
+         }
+         100% {
+            width: 500px;
+            height: 250px;
+            background-color: rgb(19, 19, 19);
+         }
+
+      }
+   </style>
+</head>
+
+<body>
+   <div class="parent">
+      <div class="child"></div>
+   </div>
+</body>
+
+</html>

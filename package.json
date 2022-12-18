@@ -1,0 +1,22 @@
+{
+  "name": "html-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdullakhan8999/Ecoom-frountend.git"
+  },
+  "author": "Patan Abdulla Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdullakhan8999/Ecoom-frountend/issues"
+  },
+  "homepage": "https://github.com/abdullakhan8999/Ecoom-frountend#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
