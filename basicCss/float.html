@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Alignment</title>
+   <style>
+      * {
+         box-sizing: border-box;
+      }
+
+      .container {
+         background-color: lightsalmon;
+         width: 500px;
+         border: 3px solid palevioletred;
+         margin: auto;
+         margin-top: 30px;
+      }
+
+      .item {
+         border: 2px solid grey;
+         margin: 12px 6px;
+         padding: 12px 6px;
+         background-color: lightpink;
+      }
+
+      #fruits {
+         float: left;
+         width: 43%;
+      }
+
+      #computer {
+         float: right;
+         width: 43%;
+      }
+
+      #Stationary {
+         /* float: left; */
+         clear: both;
+         width: 100%;
+      }
+
+      h3 {
+         text-align: center;
+         text-align: justify;
+         text-align: end;
+         text-align: left;
+      }
+
+      h1 {
+         margin: auto;
+         width:
+            300px;
+      }
+   </style>
+</head>
+
+<body>
+   <div class="container">
+      <h1>WelCome To store</h1>
+      <div id="fruits" class="item">
+         <h3>Fruits</h3>
+         <p id="fruitsPara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi veniam
+            omnis iusto aliquam repellat neque porro. Amet dignissimos doloremque libero? Error, explicabo. Possimus
+            placeat, inventore nam ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus ut
+            deserunt, voluptates placeat consectetur dignissimos! Quam, aliquid? Totam mollitia perferendis obcaecati
+            quod ut voluptatum, sint aut quo asperiores iure inventore assumenda! Nostrum, officia! earum harum eos.</p>
+      </div>
+      <div id="computer" class="item">
+         <h3>computer</h3>
+         <p id="computerPara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi veniam
+            omnis iusto aliquam repellat neque porro. Amet dignissimos doloremque libero? Error, explicabo. Possimus
+            placeat, inventore nam ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus ut
+            deserunt, voluptates placeat consectetur dignissimos! Quam, aliquid? Totam mollitia perferendis obcaecati
+            quod ut voluptatum, sint aut quo asperiores iure inventore assumenda! Nostrum, officia! earum harum eos.</p>
+      </div>
+      <div id="Stationary" class="item">
+         <h3>Stationary</h3>
+         <p id="StationaryPara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi veniam
+            omnis iusto aliquam repellat neque porro. Amet dignissimos doloremque libero? Error, explicabo. Possimus
+            placeat, inventore nam ipsum earum harum eos.</p>
+      </div>
+
+   </div>
+</body>
+
+</html>
